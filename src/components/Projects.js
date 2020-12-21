@@ -19,27 +19,30 @@ export default function Projects() {
 								alt='Project'
 								className='w-full sm:max-w-md'
 							/>
-							<div className='p-3 sm:max-w-md '>
+							<div className='p-2 sm:max-w-md '>
 								<h2 className='m-1 text-center text-xl font-bold text-blue-500'>
 									{project.title}
 								</h2>
 								<div>
 									{project.tags.map((tag) => {
 										return (
-											<span key={project.tags.indexOf(tag)} className='mx-1 px-1'>
+											<span
+												key={project.tags.indexOf(tag)}
+												className='mx-1 px-1'
+											>
 												<i className={tag.icon}></i>
 												&nbsp;{tag.name}
 											</span>
 										);
 									})}
 								</div>
-								<p className="text-gray-400">{project.description}</p>
-								<div className='text-center my-2'>
+								<p className='text-gray-400'>{project.description}</p>
+								<div className='text-center my-1'>
 									<a
 										href={project.github}
 										target='_blank'
 										rel='noreferrer'
-										className='inline-block mx-2 py-1 px-2 rounded bg-blue-700 text-gray-300'
+										className='inline-block mx-2 py-1 px-2 rounded bg-blue-700 text-gray-400 hover:text-white'
 									>
 										View Code
 									</a>
@@ -47,7 +50,7 @@ export default function Projects() {
 										href={project.url}
 										target='_blank'
 										rel='noreferrer'
-										className='inline-block mx-2 py-1 px-2 rounded bg-green-700 text-gray-300'
+										className='inline-block mx-2 py-1 px-2 rounded bg-green-700 text-gray-400 hover:text-white'
 									>
 										Live Demo
 									</a>
@@ -56,6 +59,17 @@ export default function Projects() {
 						</article>
 					);
 				})}
+			</div>
+
+			<div>
+				<a
+					href='https://github.com/kchhan'
+					target='_blank'
+					rel='noreferrer'
+					className='p-2'
+				>
+					Click here to check out more of my work on GitHub!
+				</a>
 			</div>
 
 			<Footer />

@@ -24,6 +24,7 @@ export default function About() {
 
 				<img
 					src={window.location.origin + '/images/profile.png'}
+					alt="It's a me! Kevin!"
 					className='max-w-xs rounded-full'
 				/>
 			</article>

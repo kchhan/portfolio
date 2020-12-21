@@ -4,7 +4,7 @@
 			"url": "",
 			"github": "https://github.com/kchhan/issue-tracker",
 			"title": "Issue Tracker",
-			"description": "A web app for tracking bugs and features on tickets in projects. Includes graphs for data visualization, authentication, and authorization! Log in details in GitHub repo.",
+			"description": "A web app for tracking bugs and features with tickets in projects. Includes graphs for data visualization, authentication, and authorization! Log in details in GitHub repo.",
 			"tags": [
 				{
 					"name": "PHP",
@@ -15,12 +15,16 @@
 					"icon": "fab fa-laravel"
 				},
 				{
-					"name": "Tailwind CSS",
+					"name": "TailwindCSS",
 					"icon": "fab fa-tailwindcss"
 				},
 				{
 					"name": "MySQL",
 					"icon": "fas fa-database"
+				},
+				{
+					"name": "Docker",
+					"icon": "fab fa-docker"
 				}
 			],
 			"image": "/images/issue-tracker.png"

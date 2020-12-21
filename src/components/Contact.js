@@ -7,8 +7,11 @@ export default function Contact() {
 			<Header />
 
 			<div>
-				<h1>I'm Available! Let's Chat!</h1>
-				<h2>kvnchhan@gmail.com</h2>
+				<h1 className='text-xl'>I'm Available! Let's Chat!</h1>
+				<h2 className='p-2 text-xl border text-center text-white'>
+					<a href='mailto:kvnchhan@gmail.com'
+					className="p-2">kvnchhan@gmail.com</a>
+				</h2>
 			</div>
 
 			<Footer />
