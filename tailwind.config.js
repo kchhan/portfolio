@@ -4,8 +4,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				sepia: {
-					default: '#e3ceb9',
+				dark_mode: {
+					default: '#081B33',
+					light: '#152642',
+					gray: '#767D92',
 				},
 			},
 		},

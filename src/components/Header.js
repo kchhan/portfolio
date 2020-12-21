@@ -8,11 +8,6 @@ export default function Header() {
 			</div>
 			<div className='flex'>
 				<div>
-					<Link to='/' className='p-3'>
-						Home
-					</Link>
-				</div>
-				<div>
 					<Link to='/about' className='p-3'>
 						About
 					</Link>

@@ -1,0 +1,66 @@
+{
+	"projects": [
+		{
+			"url": "",
+			"github": "https://github.com/kchhan/issue-tracker",
+			"title": "Issue Tracker",
+			"description": "A web app for tracking bugs and features on tickets in projects. Includes graphs for data visualization, authentication, and authorization! Log in details in GitHub repo.",
+			"tags": [
+				{
+					"name": "PHP",
+					"icon": "fab fa-php"
+				},
+				{
+					"name": "Laravel",
+					"icon": "fab fa-laravel"
+				},
+				{
+					"name": "Tailwind CSS",
+					"icon": "fab fa-tailwindcss"
+				},
+				{
+					"name": "MySQL",
+					"icon": "fas fa-database"
+				}
+			],
+			"image": "/images/issue-tracker.png"
+		},
+		{
+			"url": "https://kchhan-blog-view.herokuapp.com",
+			"github": "https://github.com/kchhan/blog-app",
+			"title": "Blog App",
+			"description": "A personal blog app to showcase a CRUD application. The editor's front-end application is different from the reader's application but both utilize the same database.",
+			"tags": [
+				{
+					"name": "HTML5",
+					"icon": "fab fa-html5"
+				},
+				{
+					"name": "CSS3",
+					"icon": "fab fa-css3"
+				},
+				{
+					"name": "JavaScript",
+					"icon": "fab fa-js"
+				},
+				{
+					"name": "React",
+					"icon": "fab fa-react"
+				},
+				{
+					"name": "NodeJS",
+					"icon": "fab fa-node-js"
+				},
+				{
+					"name": "Express",
+					"icon": "fab fa-express"
+				},
+				{
+					"name": "MongoDB",
+					"icon": "fas fa-database"
+				}
+			],
+			"image": "/images/blog-app.png"
+		}
+	]
+}

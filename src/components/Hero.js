@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
 	return (
-		<section className='h-screen flex flex-col items-center justify-between bg-sepia-default text-gray-500'>
+		<section className='h-screen flex flex-col items-center justify-between bg-dark_mode-default text-gray-500'>
 			<div></div>
 			<div>
 				<div>Kevin Chhan</div>
