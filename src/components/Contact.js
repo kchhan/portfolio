@@ -7,7 +7,7 @@ export default function Contact() {
 			<Header />
 
 			<div>
-				<h1>Let's Chat!</h1>
+				<h1>I'm Available! Let's Chat!</h1>
 				<h2>kvnchhan@gmail.com</h2>
 			</div>
 
