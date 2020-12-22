@@ -7,8 +7,8 @@ import Contact from './components/Contact';
 
 function App() {
 	return (
-		<main className="">
-			<BrowserRouter>
+		<main className=''>
+			<BrowserRouter basename='/portfolio'>
 				<Switch>
 					<Route exact path='/' component={Hero} />
 					<Route path='/about' component={About} />
