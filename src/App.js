@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
 	return (
-		<main>
+		<main className="">
 			<BrowserRouter>
 				<Switch>
 					<Route exact path='/' component={Hero} />
