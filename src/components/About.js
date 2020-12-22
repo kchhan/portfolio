@@ -23,7 +23,7 @@ export default function About() {
 				</div>
 
 				<img
-					src={window.location.origin + '/images/profile.png'}
+					src={window.location.origin + '/portfolio/images/profile.png'}
 					alt="It's a me! Kevin!"
 					className='max-w-xs rounded-full'
 				/>

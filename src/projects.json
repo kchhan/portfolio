@@ -27,7 +27,7 @@
 					"icon": "fab fa-docker"
 				}
 			],
-			"image": "/images/issue-tracker.png"
+			"image": "/portfolio/images/issue-tracker.png"
 		},
 		{
 			"url": "https://kchhan-blog-view.herokuapp.com",
@@ -64,7 +64,28 @@
 					"icon": "fas fa-database"
 				}
 			],
-			"image": "/images/blog-app.png"
+			"image": "/portfolio/images/blog-app.png"
+		},
+		{
+			"url": "https://kchhan.github.io/iOS-calculator-clone/",
+			"github": "https://github.com/kchhan/iOS-calculator-clone",
+			"title": "iOS Calculator Clone",
+			"description": "A calculator modeled after Apple's calculator app. In the future I hope to add the more advanced calculator features from when the calculator is in landscape mode.",
+			"tags": [
+				{
+					"name": "HTML5",
+					"icon": "fab fa-html5"
+				},
+				{
+					"name": "CSS3",
+					"icon": "fab fa-css3"
+				},
+				{
+					"name": "JavaScript",
+					"icon": "fab fa-js"
+				}
+			],
+			"image": "/portfolio/images/calculator.png"
 		}
 	]
 }

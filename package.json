@@ -2,7 +2,7 @@
 	"name": "portfolio",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://kchhan.github.io/portfolio",
+	"homepage": "https://kchhan.github.io/portfolio",
 	"dependencies": {
 		"@craco/craco": "^6.0.0",
 		"@tailwindcss/postcss7-compat": "^2.0.2",
@@ -21,7 +21,7 @@
 		"build": "craco build",
 		"test": "craco test",
 		"eject": "react-scripts eject",
-		"predeploy": "craco build",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
