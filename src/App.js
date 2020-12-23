@@ -5,10 +5,10 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
-function App() {
+export default function App() {
 	return (
-		<main className=''>
-			<BrowserRouter basename='/portfolio'>
+		<main>
+			<BrowserRouter basename={window.location.pathname || ''}>
 				<Switch>
 					<Route exact path='/' component={Hero} />
 					<Route path='/about' component={About} />
@@ -19,5 +19,3 @@ function App() {
 		</main>
 	);
 }
-
-export default App;
