@@ -5,6 +5,7 @@
 			"github": "https://github.com/kchhan/issue-tracker",
 			"title": "Issue Tracker",
 			"description": "A web app for tracking bugs and features with tickets in projects. Includes graphs for data visualization, authentication, and authorization! Log in details in GitHub repo.",
+			"image": "/images/issue-tracker.png",
 			"tags": [
 				{
 					"name": "PHP",
@@ -26,14 +27,14 @@
 					"name": "Docker",
 					"icon": "fab fa-docker"
 				}
-			],
-			"image": "/portfolio/images/issue-tracker.png"
+			]
 		},
 		{
 			"url": "https://kchhan-blog-view.herokuapp.com",
 			"github": "https://github.com/kchhan/blog-app",
 			"title": "Blog App",
 			"description": "A personal blog app to showcase a CRUD application. The editor's front-end application is different from the reader's application but both utilize the same database.",
+			"image": "/images/blog-app.png",
 			"tags": [
 				{
 					"name": "HTML5",
@@ -63,14 +64,14 @@
 					"name": "MongoDB",
 					"icon": "fas fa-database"
 				}
-			],
-			"image": "/portfolio/images/blog-app.png"
+			]
 		},
 		{
 			"url": "https://kchhan.github.io/iOS-calculator-clone/",
 			"github": "https://github.com/kchhan/iOS-calculator-clone",
 			"title": "iOS Calculator Clone",
 			"description": "A calculator modeled after Apple's calculator app. In the future I hope to add the more advanced calculator features from when the calculator is in landscape mode.",
+			"image": "/images/calculator.png",
 			"tags": [
 				{
 					"name": "HTML5",
@@ -84,8 +85,49 @@
 					"name": "JavaScript",
 					"icon": "fab fa-js"
 				}
-			],
-			"image": "/portfolio/images/calculator.png"
+			]
+		},
+		{
+			"url": "https://kchhan.github.io/weather-app/",
+			"github": "https://github.com/kchhan/weather-app",
+			"title": "Weather Forecast App",
+			"description": "A weather forecast application that utilizes OpenWeatherMap's free tier API. The application uses fetch calls to the API to display a wide range of data including current weather, one day hourly weather, and weekly high and lows!",
+			"image": "/images/weather-app.png",
+			"tags": [
+				{
+					"name": "HTML5",
+					"icon": "fab fa-html5"
+				},
+				{
+					"name": "CSS3",
+					"icon": "fab fa-css3"
+				},
+				{
+					"name": "JavaScript",
+					"icon": "fab fa-js"
+				}
+			]
+		},
+		{
+			"url": "https://kchhan.github.io/battleship/dist/index.html",
+			"github": "https://github.com/kchhan/battleship",
+			"title": "Battleship Game",
+			"description": "This project was build by Test Driven Development using the JavaScript testing framework Jest. Currently the AI randomly picks a square against you but I hope to one day implement a smarter AI",
+			"image": "/images/battleship.png",
+			"tags": [
+				{
+					"name": "HTML5",
+					"icon": "fab fa-html5"
+				},
+				{
+					"name": "CSS3",
+					"icon": "fab fa-css3"
+				},
+				{
+					"name": "JavaScript",
+					"icon": "fab fa-js"
+				}
+			]
 		}
 	]
 }

@@ -19,7 +19,7 @@ export default function About() {
 					>
 						<div className='mx-3 max-w-lg'>
 							<p className='my-2 p-2'>
-								Hello I'm Kevin, a fullstack developer! My passion for learning drives me to keep
+								Hello I'm Kevin, a fullstack web developer! My passion for learning drives me to keep
 								improving my skills wherever I find myself. I hope to apply my knowledge to create beautiful code. Clear communication
 								and trust are things that I emphasize when working with others.
 								I am seeking to shift into the web development industry.
@@ -32,7 +32,7 @@ export default function About() {
 						</div>
 
 						<img
-							src={window.location.origin + '/portfolio/images/profile.png'}
+							src={window.location.origin + '/images/profile.png'}
 							alt="It's a me! Kevin!"
 							className='max-w-xs rounded-full'
 						/>

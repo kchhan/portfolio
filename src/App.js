@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 export default function App() {
 	return (
 		<main>
-			<BrowserRouter basename={window.location.pathname || ''}>
+			<BrowserRouter basename={window.location.pathname}>
 				<Switch>
 					<Route exact path='/' component={Hero} />
 					<Route path='/about' component={About} />
