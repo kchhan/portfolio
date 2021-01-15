@@ -1,7 +1,7 @@
 {
 	"projects": [
 		{
-			"url": "",
+			"url": "https://issuetrackertool.net",
 			"github": "https://github.com/kchhan/issue-tracker",
 			"title": "Issue Tracker",
 			"description": "A web app for tracking bugs and features with tickets in projects. Includes graphs for data visualization, authentication, and authorization! Log in details in GitHub repo.",
