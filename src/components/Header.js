@@ -14,7 +14,7 @@ export default function Header() {
 							to='/'
 							className='block p-2 text-2xl text-white bg-dark_mode-default'
 						>
-							KC
+							KEVIN CHHAN
 						</Link>
 					</div>
 					<div className='flex text-white'>
