@@ -10,9 +10,8 @@ export default function App() {
 		<main>
 			<BrowserRouter basename={window.location.pathname}>
 				<Switch>
-					<Route exact path='/' component={Hero} />
+					<Route exact path='/' component={Projects} />
 					<Route path='/about' component={About} />
-					<Route path='/projects' component={Projects} />
 					<Route path='/contact' component={Contact} />
 				</Switch>
 			</BrowserRouter>

@@ -17,29 +17,30 @@ export default function Header() {
 							KC
 						</Link>
 					</div>
-					<div className='flex'>
+					<div className='flex text-white'>
+						<div>
+							<Link
+								to='/'
+								className='p-3 hover:text-white border-b-2 border-gray-800 hover:border-blue-500'
+							>
+								HOME
+							</Link>
+						</div>
 						<div>
 							<Link
 								to='/about'
 								className='p-3 hover:text-white border-b-2 border-gray-800 hover:border-green-500'
 							>
-								About
+								ABOUT
 							</Link>
 						</div>
-						<div>
-							<Link
-								to='/projects'
-								className='p-3 hover:text-white border-b-2 border-gray-800 hover:border-blue-500'
-							>
-								Projects
-							</Link>
-						</div>
+						
 						<div>
 							<Link
 								to='/contact'
 								className='p-3 hover:text-white border-b-2 border-gray-800 hover:border-red-500'
 							>
-								Contact
+								CONTACT
 							</Link>
 						</div>
 					</div>
