@@ -17,19 +17,21 @@ export default function About() {
 						style={{ opacity, transform }}
 						className='flex flex-col-reverse md:flex-row items-center justify-items-center '
 					>
-						<div className='mx-3 max-w-lg'>
+						<div className='mx-3 max-w-lg text-white text-lg'>
 							<p className='my-2 p-2'>
-								Hello I'm Kevin, a fullstack web developer! My passion for learning drives me to keep
-								improving my skills wherever I find myself. I hope to apply my knowledge to create beautiful code. Clear communication
+								Hello I'm Kevin! My passion for learning drives me to keep
+								improving my skills wherever I find myself. Clear communication
 								and trust are things that I emphasize when working with others.
-								I am seeking to shift into the web development industry.
+								Currently I am a Development Support Engineer at CloudBees! 
+								I use my expertise with Jenkins to help others and to provide them with solutions.
 							</p>
 
 							<p className='my-2 p-2'>
-								When not programming I am usually found tinkering with some
-								tech, playing some video games, or drinking some nice hot tea!
+								In my spare time I am enjoy going on runs, spending time with my family,
+								or just having a nice cup of coffee!
 							</p>
 						</div>
+
 
 						<img
 							src={window.location.origin + '/images/profile.png'}
